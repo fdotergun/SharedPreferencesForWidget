@@ -108,4 +108,3 @@ public class ParkLot extends AppWidgetProvider {
 
 
 }
-
