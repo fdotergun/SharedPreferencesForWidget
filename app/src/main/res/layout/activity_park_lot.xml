@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="@dimen/widget_margin"
+              android:background="#55000000">
+
+    <Button
+        android:id="@+id/first_variable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:background="@mipmap/ic_empty_top"
+
+        />
+
+    <Button
+        android:id="@+id/text_segment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:background="@mipmap/ic_empty_mid"
+
+        />
+
+    <Button
+        android:id="@+id/second_variable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:background="@mipmap/ic_empty_mid"
+
+        />
+    <ImageButton
+        android:id="@+id/color_variable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:textStyle="bold"
+        android:background="@mipmap/ic_color_bottom"
+
+        />
+
+</LinearLayout>
